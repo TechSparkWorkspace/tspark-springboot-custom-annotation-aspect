@@ -1,19 +1,14 @@
-# Spring Boot Starter Template Repository
+# TechSpark Spring Boot Custom Annotation with Aspect
 
-Welcome to the Spring Boot Starter Template Repository! This project provides a ready-to-use Spring Boot Starter setup,
-helping you jumpstart new applications quickly and efficiently.
+Repository to demonstrate the usage of custom annotation with Aspect in SpringBoot. This repo is build
+of [TechSpark SpringBoot Starter Template](https://github.com/TechSparkWorkspace/tspark-springboot-starter-template.git)
 
-## Getting Started
 
-- Click the “Use this template” button at the top of this repository’s page.
-- Provide a name for your new repository and choose whether it should be public or private.
-- Click “Create repository from template” to generate your own copy.
- 
 ## Clone Your New Repository
 
-- Open your new repository on GitHub.
-- Click the “Code” button and copy the repository URL.
-- Run git clone <your-repo-url> in your terminal to clone the code locally.
+- Run `git clone https://github.com/TechSparkWorkspace/tspark-springboot-custom-annotation-aspect.git` in your terminal
+  to
+  clone the code locally.
 
 ## Customize Project Settings
 
@@ -27,19 +22,3 @@ helping you jumpstart new applications quickly and efficiently.
 ```
 
 Open your browser and goto [API Documentation](http://localhost:8080/swagger-ui/index.html)
-
-- Access the running application by opening your browser at http://localhost:8080 (unless you changed the port).
-
-## Starter Template Features
-
-This starter template comes with below features.
-
-- Spring Boot Web, Validation, JPA, and Actuator
-- SpringDoc OpenAPI with Swagger UI
-- Lombok for reducing boilerplate code
-- MapStruct for DTO-to-Entity conversion
-- H2 In-Memory Database for testing
-- Stock Portfolio CRUD with Service, Repo, Controller
-- Global Exception Handling with @ControllerAdvice
-- JUnit 5 & Mockito for unit testing
-- Feature-based folder structure
