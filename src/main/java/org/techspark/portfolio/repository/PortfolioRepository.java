@@ -1,7 +1,7 @@
-package org.techspark.starter.portfolio.repository;
+package org.techspark.portfolio.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.techspark.starter.portfolio.entity.Stock;
+import org.techspark.portfolio.entity.Stock;
 
 import java.util.Optional;
 

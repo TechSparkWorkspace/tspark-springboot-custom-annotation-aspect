@@ -1,4 +1,4 @@
-package org.techspark.starter.portfolio.entity;
+package org.techspark.portfolio.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

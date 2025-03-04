@@ -1,4 +1,4 @@
-package org.techspark.starter;
+package org.techspark;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

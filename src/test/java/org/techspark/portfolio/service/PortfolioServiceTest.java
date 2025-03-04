@@ -1,4 +1,4 @@
-package org.techspark.starter.portfolio.service;
+package org.techspark.portfolio.service;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
@@ -7,10 +7,10 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.techspark.starter.portfolio.dto.StockDTO;
-import org.techspark.starter.portfolio.entity.Stock;
-import org.techspark.starter.portfolio.mapper.StockMapper;
-import org.techspark.starter.portfolio.repository.PortfolioRepository;
+import org.techspark.portfolio.dto.StockDTO;
+import org.techspark.portfolio.entity.Stock;
+import org.techspark.portfolio.mapper.StockMapper;
+import org.techspark.portfolio.repository.PortfolioRepository;
 
 import java.util.List;
 import java.util.Optional;

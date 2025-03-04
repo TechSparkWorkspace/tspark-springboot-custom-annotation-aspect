@@ -1,4 +1,4 @@
-package org.techspark.starter.portfolio.controller;
+package org.techspark.portfolio.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -9,8 +9,8 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.techspark.starter.portfolio.dto.StockDTO;
-import org.techspark.starter.portfolio.service.PortfolioService;
+import org.techspark.portfolio.dto.StockDTO;
+import org.techspark.portfolio.service.PortfolioService;
 
 import java.util.List;
 

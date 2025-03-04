@@ -1,9 +1,9 @@
-package org.techspark.starter.portfolio.mapper;
+package org.techspark.portfolio.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
-import org.techspark.starter.portfolio.dto.StockDTO;
-import org.techspark.starter.portfolio.entity.Stock;
+import org.techspark.portfolio.dto.StockDTO;
+import org.techspark.portfolio.entity.Stock;
 
 @Mapper
 public interface StockMapper {
